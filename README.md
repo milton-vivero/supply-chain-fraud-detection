@@ -15,26 +15,18 @@ supply-chain-fraud-detection/
 │   ├── raw/            # Datasets transaccionales crudos e históricos (.csv)
 │   └── processed/      # Entregables depurados y consolidados listos para producción
 │
-├── notebooks/          # Cuadernos de Jupyter para análisis exploratorio (EDA)
-│   └── fraud_audit_exploration.ipynb
-│
-├── src/                # Pipeline de ingeniería de software
-│   └── data_pipeline.py # Script ETL automatizado y motor de reglas de negocio
-│
-├── dashboard/          # Modelado de Inteligencia de Negocios
-│   └── fraud_risk_scorecard.pbix
-│
+├── Notebook/          # Cuadernos de Jupyter para análisis exploratorio (EDA) En Visual Studio Code
+│   └── supply-chain-fraud-detection.ipynb
 └── README.md           # Documentación técnica del repositorio
+
 ```
 
----
-
-## 🛠️ Tecnologías y Librerías Utilizadas
+## 🛠️ Tecnologías y Herramientas Utilizadas
+*   **Entorno de Desarrollo Principal:** Visual Studio Code (VS Code)
 *   **Lenguaje Base:** Python 3.x
 *   **Procesamiento y ETL de Datos:** Pandas, NumPy
 *   **Visualización Estadística:** Seaborn, Matplotlib
-*   **Entorno de Desarrollo:** Jupyter Notebook / Python Scripts
-*   **BI & Data Modeling:** Microsoft Power BI Desktop
+*   **Extensiones e Integraciones:** Jupyter Notebooks para VS Code
 
 ---
 
@@ -63,19 +55,4 @@ El componente analítico incluye gráficos avanzados de distribución cruzada qu
 Las visualizaciones geográficas mapean la tasa de entregas tardías (`Riesgo_Entrega_Tardia`) segregadas por estado del cliente, facilitando a la gerencia la toma de decisiones para rescindir contratos con proveedores de transporte ineficientes en zonas de alta fricción.
 
 ---
-
-## 🚀 Instrucciones de Ejecución
-Para replicar el entorno de auditoría y ejecutar el pipeline transaccional de extremo a extremo, utiliza los siguientes comandos en tu consola:
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com
-   ```
-2. Instalar dependencias requeridas:
-   ```bash
-   pip install pandas numpy matplotlib seaborn
-   ```
-3. Ejecutar el script principal de procesamiento:
-   ```bash
-   python src/data_pipeline.py
-   ```
+`
