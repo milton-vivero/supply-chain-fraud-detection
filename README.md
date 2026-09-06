@@ -11,10 +11,6 @@ A través de este análisis, se identificó un patrón de vulnerabilidad crític
 ```text
 supply-chain-fraud-detection/
 │
-├── data/
-│   ├── raw/            # Datasets transaccionales crudos e históricos (.csv)
-│   └── processed/      # Entregables depurados y consolidados listos para producción
-│
 ├── Notebook/          # Cuadernos de Jupyter para análisis exploratorio (EDA) En Visual Studio Code
 │   └── supply-chain-fraud-detection.ipynb
 └── README.md           # Documentación técnica del repositorio
