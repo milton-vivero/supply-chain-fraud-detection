@@ -1,7 +1,7 @@
-# Supply Chain Fraud Detection & Financial Risk Audit
+# Supply Chain Fraud Detection
 
 ## 📋 Descripción del Proyecto
-Este proyecto implementa un motor de auditoría dinámica y detección de anomalías transaccionales sobre una arquitectura de datos masiva (+180,000 registros) en el sector logístico y de cadena de suministro. El objetivo principal es aislar e identificar vulnerabilidades financieras críticas, fugas de capital y conductas de fraude mediante técnicas avanzadas de procesamiento ETL con Python, análisis predictivo y modelado estructurado para toma de decisiones gerenciales.
+Este proyecto implementa un motor de auditoría dinámica y detección de anomalías transaccionales sobre una arquitectura de datos masiva en el sector logístico y de cadena de suministro. El objetivo principal es aislar e identificar vulnerabilidades financieras críticas, fugas de capital y conductas de fraude mediante técnicas avanzadas de procesamiento ETL con Python, análisis predictivo y modelado estructurado para toma de decisiones gerenciales.
 
 A través de este análisis, se identificó un patrón de vulnerabilidad crítico: **el 100% de los incidentes confirmados bajo sospecha de fraude se concentran exclusivamente en la modalidad de pago por transferencia**.
 
@@ -46,9 +46,11 @@ Se crearon nuevas métricas operativas directas para medir la fricción en la ca
 ---
 
 ## 📊 Visualización Ejecutiva (Storytelling con Datos)
-El componente analítico incluye gráficos avanzados de distribución cruzada que contrastan órdenes exitosas (`COMPLETADA`) frente a las pérdidas financieras potenciales (`SOSPECHA_DE_FRAUDE`). 
+El componente analítico incluye gráfico de distribución cruzada que contrastan órdenes exitosas (`COMPLETADA`) frente a las pérdidas financieras potenciales (`SOSPECHA_DE_FRAUDE`). 
 
 Las visualizaciones geográficas mapean la tasa de entregas tardías (`Riesgo_Entrega_Tardia`) segregadas por estado del cliente, facilitando a la gerencia la toma de decisiones para rescindir contratos con proveedores de transporte ineficientes en zonas de alta fricción.
+<img width="529" height="259" alt="image" src="https://github.com/user-attachments/assets/9badffee-180d-4996-a97c-f9bb34793142" />
+
 
 ---
 `
