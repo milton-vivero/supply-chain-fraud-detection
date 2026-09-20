@@ -104,13 +104,14 @@ Se generaron variables derivadas para analizar la eficiencia logística y la dif
 
 La métrica se calculó mediante la siguiente fórmula:
 
-$$
-\text{Varianza de Envío}
-=
-\text{Días de Envío Programados}
--
-\text{Días de Envío Reales}
-$$
+## 📊 Métricas Clave del Análisis
+
+| Métrica | Resultado |
+| --- | ---: |
+| **Transacciones analizadas** | **180.508** |
+| **Transacciones sospechosas** | **4.062** |
+| **Concentración en transferencias** | **100 %** |
+| **Variable de riesgo logístico** | `Riesgo_Entrega_Tardia` |
 
 Esta variable permite examinar la diferencia entre la planificación y la ejecución del proceso de entrega.
 
