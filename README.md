@@ -102,17 +102,6 @@ Se generaron variables derivadas para analizar la eficiencia logística y la dif
 
 #### 📦 Varianza de Envío
 
-La métrica se calculó mediante la siguiente fórmula:
-
-## 📊 Métricas Clave del Análisis
-
-| Métrica | Resultado |
-| --- | ---: |
-| **Transacciones analizadas** | **180.508** |
-| **Transacciones sospechosas** | **4.062** |
-| **Concentración en transferencias** | **100 %** |
-| **Variable de riesgo logístico** | `Riesgo_Entrega_Tardia` |
-
 Esta variable permite examinar la diferencia entre la planificación y la ejecución del proceso de entrega.
 
 ---
